@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>SignUp Form</title>
+</head>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  height: 100vh;
+}
+#signup .container #signup-row #signup-column #signup-box {
+  margin-top: 100px;
+  max-width: 400px;
+  height: 300px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#signup .container #signup-row #signup-column #signup-box #signup-form {
+  padding: 20px;
+}
+#signup .container #signup-row #signup-column #signup-box #signup-form {
+  margin-top: -35px;
+}
+.submit {
+      cursor: pointer;
+        border-radius: 5em;
+        color: black;
+        background: linear-gradient(to right, #a9a9a9, #e0e0e0);
+        border: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 13px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+  }
+
+</style>
+<body>
+    <div id="signup" align="center">
+        <h2 class="text-center text-white pt-5">Signup form</h2>
+        <div class="container" align="center">
+            <div id="signup-row" class="row justify-content-center align-items-center">
+                <div id="signup-column" class="col-md-6">
+                    <div id="signup-box" class="col-md-12">
+                        <form id="signup-form" class="form" action="" method="post">
+                            <h3 class="text-center text-info">Signup</h3>
+                            <div class="form-group">
+                                <label for="name" class="text-info">Name:</label><br>
+                                <input type="text" name="name" id="name" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="text-info">Email:</label><br>
+                                <input type="text" name="email" id="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="text-info">Password:</label><br>
+                                <input type="text" name="password" id="password" class="form-control">
+                            </div>
+                             <div class="form-group">
+                                <label for="Cpassword" class="text-info">Conform Password:</label><br>
+                                <input type="text" name="Cpassword" id="Cpassword" class="form-control">
+                            </div>                           
+                            <div class="form-group">
+                                <label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br><br><br>
+                                <a class="submit" align="center" href="Profile.html">Sumbit</a><br><br><br>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Book Catalogue</title>
+</head>
+<style>
+  /* wildcard styling */ 
+		* { 
+			box-sizing: border-box; 
+		} 
+		
+		/* padding for whole body */ 
+		body { 
+			padding: 15px; 
+		} 
+		
+		/* styling body */ 
+		.container { 
+			max-width: 1200px; 
+			margin: auto;
+			text-align:center; 
+		} 
+		
+		h1 { 
+			color: Black; 
+		} 
+		
+		/* anchor tag decoration */ 
+		a { 
+			text-decoration: none; 
+			color: grey; 
+		} 
+		
+		a:hover { 
+			color: lightblue; 
+		} 
+		
+		/* paragraph tga decoration */ 
+		p { 
+			display: -webkit-box; 
+			-webkit-box-orient: vertical; 
+			-webkit-line-clamp: 4; 
+			overflow: hidden; 
+	
+		} 
+		
+		/* row and column decoration */ 
+		.row { 
+			margin: 0px -18px; 
+			padding: 10px; 
+			
+		} 
+		
+		.row > .column { 
+			padding: 10px; 
+		} 
+		
+		.column { 
+			float: left;
+			margin-left:40px; 
+			width: 30%; 
+		} 
+		
+		.row:after { 
+			content: "";
+			display: table; 
+			clear: both; 
+		} 
+		
+		/* content decoration */ 
+		.content { 
+			background-color: white; 
+			padding: 10px; 
+			height:430px;
+			width:290px;
+			border: 1px solid gray; 
+		} 
+		
+		/* window size 850 width set */ 
+		@media screen and (max-width: 850px) { 
+			.column { 
+				width: 50%; 
+			} 
+		} 
+	
+		/* window size 400 width set */ 
+		@media screen and (max-width: 400px) { 
+			.column { 
+				width: 100%; 
+			} 
+		} 
+		
+		 .submit {
+      cursor: pointer;
+        border-radius: 5em;
+        color: black;
+        background: linear-gradient(to right, #a9a9a9, #e0e0e0);
+        border: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 13px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+  }
+ </style>
+
+<body>
+<!-- title and tag -->
+	<div class="container"> 
+		<h1>Online Book Catalog</h1>  
+		<hr> 
+		<div class="row"> 
+			<div class="column"> 
+				<div class="content"> 
+					<img src= C:\Users\mekki\OneDrive\Desktop\witcher.jpg alt="" style="height:300px; width:200px"> 
+					<h3> 
+						<p>The witcher Lady of the Lake - $19</p> 
+					</h3> 
+					<a class="submit" align="center" href="ShoppingCart.html">Add to cart</a>
+				</div> 
+			</div> 
+			<div class="column"> 
+				<div class="content"> 
+					<img src= C:\Users\mekki\OneDrive\Desktop\ram.jpg alt="" style="height:300px; width:200px"> 
+					<h3> 
+						<p>Ram The son of Ishvaku - $12</p> 
+					</h3> 
+					<a class="submit" align="center" href="ShoppingCart.html">Add to cart</a>
+				</div> 
+			</div> 
+			<div class="column"> 
+				<div class="content"> 
+					<img src= C:\Users\mekki\OneDrive\Desktop\mocking.jpg alt="" style="height:300px; width:200px"> 
+					<h3> 
+						<p>To kill a Mocking Bird - $23</p> 
+					</h3> 
+					<a class="submit" align="center" href="ShoppingCart.html">Add to cart</a>
+				</div> 
+			</div>
+			</div> 
+			<div class="row"> 
+			<div class="column"> 
+				<div class="content"> 
+					<img src= C:\Users\mekki\OneDrive\Desktop\harry.jpg alt="" style="height:300px; width:200px"> 
+					<h3> 
+						<p>Harry Potter - $16</p> 
+					</h3> 
+					<a class="submit" align="center" href="ShoppingCart.html">Add to cart</a>
+				</div> 
+			</div> 
+			<div class="column"> 
+				<div class="content"> 
+					<img src= C:\Users\mekki\OneDrive\Desktop\heros.jpg alt="" style="height:300px; width:200px"> 
+					<h3> 
+						<p>Heroes of olympus - $10</p> 
+					</h3> 
+					<a class="submit" align="center" href="ShoppingCart.html">Add to cart</a>
+				</div> 
+			</div> 
+			<div class="column"> 
+				<div class="content"> 
+					<img src=C:\Users\mekki\OneDrive\Desktop\little.jpg alt="" style="height:300px; width:200px"> 
+					<h3> 
+						<p>The Little women - $17</p> 
+					</h3> 
+					<a class="submit" align="center" href="ShoppingCart.html">Add to cart</a>
+				</div> 
+			</div> 
+			
+			</div> 
+	</div> 
+</body>
+
+</html>
