@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<users>
+
+
+-<user id="1">
+
+<firstName>Harry</firstName>
+
+<lastName>Potter</lastName>
+
+<location>London</location>
+
+</user>
+
+
+-<user id="2">
+
+<firstName>Hermione</firstName>
+
+<lastName>Granger</lastName>
+
+<location>Mumbai</location>
+
+</user>
+
+
+-<user id="3">
+
+<firstName>Ron</firstName>
+
+<lastName>Weasley</lastName>
+
+<location>Chennai</location>
+
+</user>
+
+
+-<user id="4">
+
+<firstName>Severus</firstName>
+
+<lastName>Snape</lastName>
+
+<location>Panaji</location>
+
+</user>
+
+
+-<user id="5">
+
+<firstName>Luna</firstName>
+
+<lastName>Lovegood</lastName>
+
+<location>Bhopal</location>
+
+</user>
+
+
+-<user id="6">
+
+<firstName>Neville</firstName>
+
+<lastName>Longbottom</lastName>
+
+<location>Chandigarh</location>
+
+</user>
+
+
+-<user id="7">
+
+<firstName>Sirius</firstName>
+
+<lastName>Black</lastName>
+
+<location>Jammu</location>
+
+</user>
+
+
+-<user id="8">
+
+<firstName>Albus</firstName>
+
+<lastName>Dumbledore</lastName>
+
+<location>Amravathi</location>
+
+</user>
+
+
+-<user id="9">
+
+<firstName>Remus</firstName>
+
+<lastName>Lupin</lastName>
+
+<location>Bhuvanashwar</location>
+
+</user>
+
+
+-<user id="10">
+
+<firstName>Albus Severus</firstName>
+
+<lastName>Potter</lastName>
+
+<location>London</location>
+
+</user>
+
+
+-<user id="11">
+
+<firstName>Minerva</firstName>
+
+<lastName>McGonagall</lastName>
+
+<location>Hampshire</location>
+
+</user>
+
+
+-<user id="12">
+
+<firstName>James</firstName>
+
+<lastName>Potter</lastName>
+
+<location>London</location>
+
+</user>
+
+
+-<user id="13">
+
+<firstName>Lily</firstName>
+
+<lastName>Potter</lastName>
+
+<location>London</location>
+
+</user>
+
+</users>
