@@ -1,15 +1,15 @@
-package sha;
-
+package Exp3;
 import org.w3c.dom.*;
 import javax.xml.parsers.*;
 import java.io.*;
+
 public class Parser {
 	public static void main(String[] args)throws Exception {
 		//Get Document Builder
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = factory.newDocumentBuilder();
 		//Build Document
-		Document document = builder.parse(new File("C:\\Users\\sharon\\Desktop\\wt\\Three\\src\\sha\\users.xml"));
+		Document document = builder.parse(new File("C:\\Users\\mekki\\OneDrive\\Desktop\\WT\\DataReading\\WebContent\\userdata.xml"));
 		//Normalize the XML Structure; It's just too important !!
 		//document.getDocumentElement().normalize();
 		// TODO Auto-generated method stub
@@ -32,7 +32,7 @@ public class Parser {
 				Element eElement = (Element) node;
 				if(eElement.getAttribute("id").equals(id))
 				{
-					System.out.println("Employee id : " + eElement.getAttribute("id"));
+					System.out.println("Employee Id : " + eElement.getAttribute("id"));
 					System.out.println("First Name : " +
 							eElement.getElementsByTagName("firstName").item(0).getTextContent());
 					System.out.println("Last Name : " +
@@ -43,4 +43,5 @@ public class Parser {
 			}
 		}
 	}
+
 }
